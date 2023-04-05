@@ -1,0 +1,96 @@
+.section {
+  padding-top: 70px;
+}
+.section .c-wrapper {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section .c-wrapper .app {
+  width: 500px;
+  min-height: 500px;
+  background-color: whitesmoke;
+  border: 5px solid brown;
+  border-radius: 16px;
+  padding: 16px;
+}
+.section .c-wrapper .app .a-item {
+  font-size: 26px;
+  color: darkcyan;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.section .c-wrapper .app .b-item {
+  padding: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  border-radius: 16px;
+}
+.section .c-wrapper .app .b-item .b-item-01 {
+  font-size: 18px;
+  color: darkcyan;
+  font-weight: 900;
+}
+.section .c-wrapper .app .b-item .b-item-02 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+  border: 2px solid darkcyan;
+  width: 43px;
+  height: 26px;
+  cursor: pointer;
+}
+.section .c-wrapper .app .c-item {
+  font-size: 26px;
+  color: darkcyan;
+  font-weight: 900;
+  text-align: center;
+}
+.section .c-wrapper .app .d-item {
+  margin-top: 30px;
+}
+.section .c-wrapper .app .d-item .d-item-01 {
+  border: 3px solid brown;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.section .c-wrapper .app .d-item .d-item-01 .d-item-01-A {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section .c-wrapper .app .d-item .d-item-01 .d-item-01-A h5 {
+  font-size: 26px;
+  color: darkcyan;
+  font-weight: 900;
+  text-align: center;
+}
+.section .c-wrapper .app .d-item .d-item-01 .d-item-01-A span {
+  font-size: 26px;
+  color: brown;
+  font-weight: 900;
+  text-align: center;
+}
+.section .c-wrapper .app .d-item .d-item-01 .d-item-01-B p {
+  font-size: 20px;
+  color: #ff8a66;
+  font-weight: 500;
+}
+.section .c-wrapper .app .d-item .d-item-01 .d-item-01-C {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.section .c-wrapper .app .d-item .d-item-01 .d-item-01-C img {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}/*# sourceMappingURL=inedx.css.map */

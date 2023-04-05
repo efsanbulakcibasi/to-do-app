@@ -1,0 +1,96 @@
+.section {
+    padding-top: 70px;
+    .c-wrapper {
+        width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .app {
+            width: 500px;
+            min-height: 500px;
+            background-color: whitesmoke;
+            border: 5px solid brown;
+            border-radius: 16px;
+            padding: 16px;
+            .a-item {
+                font-size: 26px;
+                color: darkcyan;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+            .b-item {
+                padding: 10px;
+                margin-bottom: 30px;
+                display: flex;
+                justify-content: space-between;
+                background-color: brown;
+                border-radius: 16px;
+                .b-item-01 {
+                    font-size: 18px;
+                    color: darkcyan;
+                    font-weight: 900;
+                }
+                .b-item-02 {
+                    object-fit: cover;
+                    border-radius: 16px;
+                    border: 2px solid darkcyan;
+                    width: 43px;
+                    height: 26px;
+                    cursor: pointer;
+                }
+            }
+            .c-item {
+                font-size: 26px;
+                color: darkcyan;
+                font-weight: 900;
+                text-align: center;
+            }
+            .d-item {
+                margin-top: 30px;
+                .d-item-01 {
+                    border: 3px solid brown;
+                    border-radius: 16px;
+                    padding: 16px;
+                    margin-bottom: 20px;
+                    .d-item-01-A {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        h5 {
+                            font-size: 26px;
+                            color: darkcyan;
+                            font-weight: 900;
+                            text-align: center;
+                        }
+                        span {
+                            font-size: 26px;
+                            color: brown;
+                            font-weight: 900;
+                            text-align: center;
+                        }
+                    }
+                    .d-item-01-B {
+                        p {
+                            font-size: 20px;
+                            color: #ff8a66;
+                            font-weight: 500;
+                        }
+                    }
+                    .d-item-01-C {
+                        display: flex;
+                        justify-content: end;
+                        align-items: center;
+                        img {
+                            width: 30px;
+                            height: 30px;
+                            margin-left: 5px;
+                            object-fit: cover;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
